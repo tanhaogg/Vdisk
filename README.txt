@@ -1,8 +1,8 @@
 作者：
 	谭颢 — TanHao
 
-作者博客:
-         http://www.tanhao.me（欢迎给我留言，提出宝贵的建议和意见！）
+作者博客（欢迎给我留言，提出宝贵的建议和意见！）:
+         http://www.tanhao.me
 
 关于:
 	Vdisk for Mac 是基于微盘(http://www.vdisk.me)开放API制作的同步工具。在此特别感谢微盘的工作人员。
