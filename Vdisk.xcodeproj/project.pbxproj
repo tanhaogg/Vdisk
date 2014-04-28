@@ -84,9 +84,9 @@
 		0493246214B34E04007485BC /* ImgDownStop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ImgDownStop.gif; sourceTree = "<group>"; };
 		04BA397A14E2A5B1001EE29F /* THButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THButton.h; sourceTree = "<group>"; };
 		04BA397B14E2A5B1001EE29F /* THButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THButton.m; sourceTree = "<group>"; };
-		04DB0C0714B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/mac/Desktop/project/Vdisk/Vdisk/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
-		04DB0C0814B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "/Users/mac/Desktop/project/Vdisk/Vdisk/zh-Hans.lproj/Credits.rtf"; sourceTree = "<absolute>"; };
-		04DB0C0914B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/mac/Desktop/project/Vdisk/Vdisk/zh-Hans.lproj/MainMenu.xib"; sourceTree = "<absolute>"; };
+		04DB0C0714B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh-Hans.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04DB0C0814B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = zh-Hans.lproj/Credits.rtf; sourceTree = "<group>"; };
+		04DB0C0914B7FEA400AB10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = zh-Hans.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		04DB0C6F14B82FBF00AB10C3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		04DB0C7014B82FBF00AB10C3 /* statusbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar.png; sourceTree = "<group>"; };
 		04DF404414ACAD93001B6A68 /* VdiskFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskFile.h; sourceTree = "<group>"; };

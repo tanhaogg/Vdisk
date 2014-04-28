@@ -516,7 +516,7 @@ static const NSString *appsecret = @"5dd63167c57e68297222b9d98b5bf427";
                     return blocks(context);
                 }else
                 {
-                    return nil;
+                    return blocks(context);
                 }
             }
             
@@ -604,10 +604,10 @@ static const NSString *appsecret = @"5dd63167c57e68297222b9d98b5bf427";
                     }else
                     {
                         //创建目录失败
-                        return nil;
+                        return blocks(context);
                     }
                 }
-                return nil;
+                return blocks(context);
             }
         }else
         {
@@ -657,7 +657,7 @@ static const NSString *appsecret = @"5dd63167c57e68297222b9d98b5bf427";
                 NSURL *url = [NSURL URLWithString:@"http://openapi.vdisk.me/?m=file&a=upload_with_sha1"];
                 NSData *receiveData = [[MKServiceManager sharedManager] uploadWithURL:url postDic:postDic];
                 NSDictionary *receiveDic = [[CJSONDeserializer deserializer] deserializeAsDictionary:receiveData error:NULL];
-                if (!receiveDic) return nil;
+                if (!receiveDic) return blocks(context);
                 NSNumber *errorCode = [receiveDic objectForKey:@"err_code"];
                 NSString *dologidStr = [receiveDic objectForKey:@"dologid"];
                 if ([errorCode intValue] == 1)
@@ -672,7 +672,7 @@ static const NSString *appsecret = @"5dd63167c57e68297222b9d98b5bf427";
                     NSURL *url = [NSURL URLWithString:@"http://openapi.vdisk.me/?m=file&a=upload_file"];
                     NSData *receiveData = [[MKServiceManager sharedManager] uploadWithURL:url postDic:postDic];
                     NSDictionary *receiveDic = [[CJSONDeserializer deserializer] deserializeAsDictionary:receiveData error:NULL];
-                    if (!receiveDic) return nil;
+                    if (!receiveDic) return blocks(context);
                     NSNumber *errorCode = [receiveDic objectForKey:@"err_code"];
                     if ([errorCode intValue] == 900)
                     {
@@ -718,7 +718,7 @@ static const NSString *appsecret = @"5dd63167c57e68297222b9d98b5bf427";
                     return disk;
                 }
             }
-            return nil;
+            return blocks(context);
         }
 
         return context;
